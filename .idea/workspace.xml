@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d96754c-54ef-40ba-8883-ef83d4b44fda" name="Default Changelist" comment="" />
+    <list default="true" id="1d96754c-54ef-40ba-8883-ef83d4b44fda" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/AAD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/DBConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/DBConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/DBConnection.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/DBConnection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="300">
+              <caret line="14" column="103" lean-forward="true" selection-start-line="14" selection-start-column="103" selection-end-line="14" selection-end-column="103" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/DBConnectionTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="330">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,22 +55,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/Owners.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+            <state relative-caret-position="-1210">
+              <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#438#439#0" expanded="true" />
                 <element signature="e#474#475#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/AAD.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -364,9 +359,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.DBConnectionTests.getOwners" />
+        <item itemvalue="JUnit.DBConnectionTests.deleteOwner" />
         <item itemvalue="JUnit.PetsTests.addPet" />
         <item itemvalue="JUnit.OwnersTests.addOwners" />
-        <item itemvalue="JUnit.DBConnectionTests.deleteOwner" />
         <item itemvalue="JUnit.PetsTests.deletePet" />
       </list>
     </recent_temporary>
@@ -383,17 +378,11 @@
       <updated>1568814223769</updated>
       <workItem from="1568814226469" duration="7085000" />
       <workItem from="1568876916766" duration="32679000" />
-      <workItem from="1568971177177" duration="18030000" />
+      <workItem from="1568971177177" duration="18304000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DBConnectionTests_getOwners - 2019.09.20 at 16h 51m 13s.xml">
-      <configuration name="DBConnectionTests.getOwners" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DBConnectionTests_getOwners - 2019.09.20 at 16h 52m 38s.xml">
-      <configuration name="DBConnectionTests.getOwners" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="OwnersTests_addOwners - 2019.09.20 at 17h 29m 14s.xml">
       <configuration name="OwnersTests.addOwners" configurationId="JUnit" />
     </history-entry>
@@ -418,9 +407,15 @@
     <history-entry file="DBConnectionTests_getOwners - 2019.09.20 at 18h 28m 34s.xml">
       <configuration name="DBConnectionTests.getOwners" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DBConnectionTests_getOwners - 2019.09.20 at 18h 33m 14s.xml">
+      <configuration name="DBConnectionTests.getOwners" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DBConnectionTests_getOwners - 2019.09.20 at 18h 35m 30s.xml">
+      <configuration name="DBConnectionTests.getOwners" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57794000" />
+    <option name="totallyTimeSpent" value="58068000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -435,7 +430,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.47562298" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2654388" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -637,30 +632,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DBConnectionTests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/AAD.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/DBConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="88">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/Owners.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+        <state relative-caret-position="-1210">
+          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#438#439#0" expanded="true" />
@@ -669,10 +651,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/AAD.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/DBConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        <state relative-caret-position="300">
+          <caret line="14" column="103" lean-forward="true" selection-start-line="14" selection-start-column="103" selection-end-line="14" selection-end-column="103" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DBConnectionTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

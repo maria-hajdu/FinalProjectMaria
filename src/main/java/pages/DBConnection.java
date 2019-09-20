@@ -12,7 +12,7 @@ public class DBConnection {
             ResultSet results=statement.executeQuery(query);
 
             while(results.next()) {
-                System.out.println(results.getString("first_name"));
+                System.out.println(results.getString("first_name")+" "+results.getString("last_name"));
             }
             connection.close();
         }catch (SQLException e){
