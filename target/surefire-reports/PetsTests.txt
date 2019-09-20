@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: PetsTests
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 12.804 s <<< FAILURE! - in PetsTests
+editPet(PetsTests)  Time elapsed: 10.85 s  <<< ERROR!
+java.lang.NullPointerException
+	at PetsTests.editPet(PetsTests.java:42)
+
+addPet(PetsTests)  Time elapsed: 12.803 s  <<< ERROR!
+java.lang.NullPointerException
+	at PetsTests.addPet(PetsTests.java:22)
+
+deletePet(PetsTests)  Time elapsed: 9.975 s  <<< ERROR!
+java.lang.NullPointerException
+	at PetsTests.deletePet(PetsTests.java:31)
+
